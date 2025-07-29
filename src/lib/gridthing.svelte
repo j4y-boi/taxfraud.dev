@@ -1,5 +1,12 @@
 <script>
   import { projects } from '../featuredProjects.js';
+  const turn = {
+    title: "Return to home",
+    description: "",
+    image: "/img/site.png",
+    link: "/"
+  }
+  const total = projects.concat(turn)
 </script>
 
 <style>
@@ -47,13 +54,23 @@
 </style>
 
 <div class="grid">
-  {#each projects as project}
-    <a href={project.link} target="_blank" rel="noopener noreferrer" class="card">
-      <img src={project.image} alt={project.title} />
-      <div class="content">
-        <div class="title text-black">{project.title}</div>
-        <div class="description">{project.description}</div>
-      </div>
-    </a>
+  {#each total as project}
+    {#if project.link === '/'}
+      <a href="/" class="card">
+        <img src={project.image} alt={project.title} />
+        <div class="content">
+          <div class="title text-black">{project.title}</div>
+          <div class="description">{project.description}</div>
+        </div>
+      </a>
+    {:else}
+      <a href={project.link} target="_blank" rel="noopener noreferrer" class="card">
+        <img src={project.image} alt={project.title} />
+        <div class="content">
+          <div class="title text-black">{project.title}</div>
+          <div class="description">{project.description}</div>
+        </div>
+      </a>
+    {/if}
   {/each}
 </div>

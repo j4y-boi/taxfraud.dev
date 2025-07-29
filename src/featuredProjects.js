@@ -3,7 +3,7 @@ export const projects = [
     title: "taxfraud.dev",
     description: "My personal site built on svelte.",
     image: "/img/site.png",
-    link: "/"
+    link: "https://www.taxfraud.dev"
   },
   {
     title: "Pip the mouse",

@@ -38,8 +38,8 @@
     function up() {
         counter += multiplier;
 
-        if (counter >= last + 500) {
-            last += 500;
+        if (counter >= last + 250) {
+            last += 250;
             multiplier += 1;
         }
 
@@ -49,15 +49,15 @@
 
         if (multiplier === 2) {
             commentary = text[0]
-        } else if (multiplier === 3){
+        } else if (multiplier === 5){
             commentary = text[2]
         } else if (multiplier === 4){
             commentary = text[1]
-        } else if (multiplier === 5){
+        } else if (multiplier === 8){
             commentary = text[3]
-        } else if (multiplier === 6){
+        } else if (multiplier === 10){
             commentary = ""
-        } else if (multiplier === 11){
+        } else if (multiplier === 13){
             commentary = text[4]
         }
     }
@@ -69,7 +69,7 @@
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
         <h3 class="text-white text-center">You've clicked the button {counter} times!</h3>
-        <h3 class="text-white text-center">Current multiplier: {multiplier}x (+1 every 500 clicks)</h3>
+        <h3 class="text-white text-center">Current multiplier: {multiplier}x (+1 every 250 clicks)</h3>
         <h3 class="text-white text-center">{commentary}</h3>
         <div class=" flex justify-center p-8">
             <button class="bg-white  text-blue-800 font-bold p-4 rounded hover:scale-105" onclick={up}>

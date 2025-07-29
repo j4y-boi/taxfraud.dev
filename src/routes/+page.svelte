@@ -65,7 +65,7 @@
         <!--<TyperwriterText text="bapanadaëErrrr... Wait...ëWelcome to my site?ëOh wait, that's what h1 is supposed to say...ëUhhhh, yeah I'm not quite sure what to say actually.ëI mean, that's how j4y coded me.ëLemme see if I have anything interessting for you...ëI'll be right back, but uh... If you reload the page... You'll need to listen to me all over again...ëGot it?ëCool.ëLoading 'The very cool thing' ëOkay, so I found that if you go to /fish you'll see something special... I'm, uhhh gonna depart now...ë "/>-->
         <p class="text-center"></p>
         <p class="text-center">This is the internet equivalent of the small storage unit I'm renting (Figuratively)</p>
-        <p class="text-center" title="Fun fact: I started coding on Scratch!">I've been coding since 2020, so that's cool I guess...</p>
+        <p class="text-center" title="Fun fact: I started out coding on Scratch!">I've been coding since 2020, so that's cool I guess...</p>
         <p class="text-center">{counterText}</p><br>
 
         <div class="flex justify-center p-8 center">

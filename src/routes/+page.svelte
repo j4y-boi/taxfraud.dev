@@ -69,10 +69,10 @@
         <p class="text-center">{counterText}</p><br>
 
         <div class="flex justify-center p-8 center">
-            <button class="bg-white  text-blue-600 font-bold p-4 rounded hover:scale-105" style="margin-right: 16px">
+            <button class="bg-white  text-black font-bold p-4 rounded hover:scale-105" style="margin-right: 16px">
                 <a href="https://github.com/j4y-boi">Check Out my Github</a>
             </button>
-            <button class="bg-white  text-blue-600 font-bold p-4 rounded hover:scale-105" style="margin-right: 16px">
+            <button class="bg-white  text-black font-bold p-4 rounded hover:scale-105" style="margin-right: 16px">
                 <a href="/projects">My projects</a>
             </button>
         </div>

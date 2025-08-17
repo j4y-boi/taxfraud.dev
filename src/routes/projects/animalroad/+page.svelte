@@ -35,23 +35,15 @@
     </style>
 </svelte:head>
 
-<script lang="ts">
-    import Typewriter from '$lib/Typewriter.svelte';
-    import TyperwriterText from '$lib/TyperwriterText.svelte';
-
-    let counter = $state(0);
-    let counterText = $state('');
-    function increment() {
-        counter += 1;
-        counterText = "Woah, you clicked... Something " + counter + " times! (Maybe clicking to 100 will do something?)";
-        if (counter === 100) {
-            window.location.href = "/clickd";
-        }
-    }
+<script>
+    import Typewriter from "$lib/Typewriter.svelte";
 
     const icons = ["❤️", "😭", "🥲", "🕑", "🥳"]
-    const splash = ["Welcome to Pizza hut what can I","number 15 burger king foo","Now gluten free!","Tax fraud is quite cool"]
-    function randomoption(list: string | any[]) {
+
+    /** congrats vs code quick fix
+     * @param {string | any[]} list
+     */
+    function randomoption(list) {
         let i = Math.floor(Math.random() * list.length);
         return list[i];
     }
@@ -59,25 +51,17 @@
 
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
-        <Typewriter text="Welcome to my site!"/>
-        <TyperwriterText speedmax={100} text={randomoption(splash)+"ëErr...ëWelcome to my site!"}/>
-        <p class="text-center"></p>
-        <p class="text-center">This is the internet equivalent of the small storage unit I'm renting (Figuratively)</p>
-        <p class="text-center" title="Fun fact: I started out coding on Scratch!">I've been coding since 2020, so that's cool I guess...</p>
-        <p class="text-center">{counterText}</p><br>
-
-        <div class="flex justify-center p-8 center">
+        <h1 class="text-center">Legally Distinct Animal Crossing</h1><hr><br>
+        <p class="text-center">LDAC is the first game I ever wrote with Godot! It's was quite the learning experience, but do forgive me for all the bugs.</p>
+        <p class="text-center">Because I don't want to retype my entire spiel, you can view all info on the itch.io page below!</p><br>
+        <div style="display: flex; justify-content: center;">
+            <iframe title="game" frameborder="0" src="https://itch.io/embed/3815431?border_width=5&amp;dark=true" width="560" height="175"><a href="https://j4y-boi.itch.io/ld-animal-crossing">Legally Distinct Animal Crossing by J4y_boi</a></iframe>
+        </div><br>
+        <div style="display: flex; justify-content: center;">
             <button class="bg-white  text-black font-bold p-4 rounded hover:scale-105" style="margin-right: 10px">
-                <a href="/info">Info / Contact</a>
-            </button>
-            <button class="bg-white  text-black font-bold p-4 rounded hover:scale-105" style="margin-right: 10px">
-                <a href="/projects">My projects</a>
+                <a href="/projects">Return to projects</a>
             </button>
         </div>
-        <div class="flex justify-center p-8">
-            <button class="hover:scale-105" onclick={increment}>�</button>
-        </div>
-        
     </div>
     <footer class="text-center p-10 flex flex-col items-center bg-great-blue-900 text-white">
         <div>
@@ -88,4 +72,4 @@
             For legal reasons, all jokes made about tax fraud and other fraudulent acts related (but not limited to) taxes are satire. (lols)
         </p>
     </footer>
-</div>
+</div>    

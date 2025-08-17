@@ -6,6 +6,12 @@ export const projects = [
     link: "https://www.taxfraud.dev"
   },
   {
+    title: "Legally Distinct Animal Crossing",
+    description: "A game where you need to open gates so animals don't get ran over.",
+    image: "/img/aminal.png",
+    link: "projects/animalroad"
+  },
+  {
     title: "Pip the mouse",
     description: "A simple video game involving a mouse. Feed him, make sure he doesn't die!",
     image: "/img/pip.png",
@@ -13,7 +19,7 @@ export const projects = [
   },
   {
     title: "pyTyper",
-    description: "A Hackertyper knockoff written in Python.",
+    description: "A Hackertyper knockoff written in Python. (The old name was typerPy, but that didn't sound quite right, and I can't be bothered with changing it in code)",
     image: "/img/pytyper.png",
     link: "https://github.com/j4y-boi/pytyper"
   },

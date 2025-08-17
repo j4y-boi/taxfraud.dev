@@ -35,7 +35,7 @@
   }
 
   .content {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .title {
@@ -55,8 +55,8 @@
 
 <div class="grid">
   {#each total as project}
-    {#if project.link === '/'}
-      <a href="/" class="card">
+    {#if project.link.substring(0, 8) != 'https://'}
+      <a href={project.link} class="card">
         <img src={project.image} alt={project.title} />
         <div class="content">
           <div class="title text-black">{project.title}</div>

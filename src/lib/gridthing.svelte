@@ -57,7 +57,7 @@
   {#each total as project}
     {#if project.link.substring(0, 8) != 'https://'}
       <a href={project.link} class="card">
-        <img src={project.image} alt={project.title} />
+        <img src={project.image} alt={project.title}/>
         <div class="content">
           <div class="title text-black">{project.title}</div>
           <div class="description">{project.description}</div>

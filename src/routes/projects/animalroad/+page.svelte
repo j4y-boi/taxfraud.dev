@@ -12,7 +12,7 @@
         </div>
         <p class="text-center"><a href="https://github.com/j4y-boi/legally-destinct-animal-crossing/tree/after-roulette"><u>GitHub Repo</u></a></p><br>
         <div style="display: flex; justify-content: center;">
-            <button class="bg-white  text-black font-bold p-4 rounded hover:scale-105" style="margin-right: 10px">
+            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
                 <a href="/projects">Return to projects</a>
             </button>
         </div>

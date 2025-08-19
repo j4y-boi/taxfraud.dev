@@ -70,7 +70,7 @@
         <h3 class="text-white text-center">Current multiplier: {multiplier}x (+1 every 250 clicks)</h3>
         <h3 class="text-white text-center">{commentary}</h3>
         <div class=" flex justify-center p-8">
-            <button class="bg-white  text-blue-800 font-bold p-4 rounded hover:scale-105" onclick={up}>
+            <button class="inline-flex h-12 items-center justify-center rounded-md bg-white px-6 text-blue-800 font-bold shadow-lg shadow-neutral-500/20 transition active:scale-95 hover:scale-105" onclick={up}>
                 Button
             </button>
         </div>

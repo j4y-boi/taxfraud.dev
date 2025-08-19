@@ -62,11 +62,9 @@
         }
     }
 </script>
-
-<Typewriter speedmax={50} text="Because you like clicking buttons so much :)"/>
-<h3 class="text-white text-center">The very balanced™ clicker game!</h3>
-
 <div class="min-h-screen flex flex-col">
+    <Typewriter speedmax={50} text="Because you like clicking buttons so much :)"/>
+    <h3 class="text-white text-center">The very balanced™ clicker game!</h3>
     <div class="text-white center">
         <h3 class="text-white text-center">You've clicked the button {counter} times!</h3>
         <h3 class="text-white text-center">Current multiplier: {multiplier}x (+1 every 250 clicks)</h3>

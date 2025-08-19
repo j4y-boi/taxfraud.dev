@@ -33,6 +33,6 @@ export const projects = [
     title: "bgChange",
     description: "A program I created with a friend so we could change wallpapers on school laptops, even if it was limited.",
     image: "/img/bgchange.png",
-    link: "https://github.com/j4y-boi/bgChange"
+    link: "projects/bgchange"
   },
 ];

@@ -31,7 +31,7 @@
                 <a href="https://github.com/j4y-boi">My Github</a>
             </button>
             <button class="bg-blue-500  text-white font-bold p-4 rounded hover:scale-105" style="margin-right: 10px">
-                <a href="mailto:j4y@taxfraud.dev">My email</a>
+                <a href="mailto:j4y_boi@taxfraud.dev">My email</a>
             </button>
         </div>
     </div>

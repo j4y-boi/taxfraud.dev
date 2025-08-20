@@ -14,7 +14,7 @@
         <br><p class="text-center"><b>Programming languages I know/use:</b></p>
         <p class="text-center">- Python | GDScript | HTML | JavaScript | CSS (Limited) -</p><br>
         <p class="text-center"><b>Programming languages I'm currently learning:</b></p>
-        <p class="text-center">- Java | CSS (more extensive) | GDScript -</p><br>
+        <p class="text-center">- Java | CSS (more extensive) | GDScript | C# -</p><br>
         <p class="text-center"><b>Tools I use for my projects:</b></p>
         <p class="text-center">- VSCode, IntelliJ IDEA, Godot (Coding) | Paint.NET, Canva, Figma (Art) -</p><br><hr><br> <!-- This is probably breaking 30+ design rules, but I could give less of a crap at the moment -->
         <div style="display: flex; justify-content: center;" class="flex flex-wrap justify-center gap-2 sm:gap-4">

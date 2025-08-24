@@ -43,7 +43,7 @@
          * @type {any[]}
          */
         let kkeys = [];
-        // up,up,down,down,left,right,left,right,B,A
+        // koonami
         const konami = '38,38,40,40,37,39,37,39,66,65';
         return (/** @type {{ keyCode: any; }} */ event) => {
             kkeys.push(event.keyCode);
@@ -56,7 +56,14 @@
     const handler = konami(() => {
         multiplier += 10
     });
-    window.addEventListener('keydown', handler);
+
+    if (typeof window !== "undefined") { // i hate that this was the issue, why the fuck would the server be able to run this anyway
+        const handler = konami(() => {
+            multiplier += 10;
+        });
+
+        window.addEventListener("keydown", handler);
+    }
 
     function up() {
         counter += multiplier;

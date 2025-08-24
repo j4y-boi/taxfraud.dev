@@ -34,6 +34,9 @@
                 <a href="/info">Info / Contact</a>
             </button>
             <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
+                <a href="/now">Now</a>
+            </button>
+            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
                 <a href="/projects">My projects</a>
             </button>
         </div>

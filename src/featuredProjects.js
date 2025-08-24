@@ -7,13 +7,13 @@ export const projects = [
   },
   {
     title: "Legally Distinct Animal Crossing",
-    description: "A game where you need to open gates so animals don't get ran over.",
+    description: "A game where you need to open gates so animals don't get run over.",
     image: "/img/aminal.png",
     link: "projects/animalroad"
   },
   {
     title: "Pip the mouse",
-    description: "A simple video game involving a mouse. Feed him, make sure he doesn't die!",
+    description: "A simple video game involving a mouse. Feed him, play with him, make sure he doesn't die!",
     image: "/img/pip.png",
     link: "https://github.com/j4y-boi/pip-the-mouse/"
   },

@@ -35,6 +35,29 @@
     let last = 0;
     const text = ["Since, you're here clicking away, I figure I might as well tell you something. /fish is an interessting page :)","Are you... Planning on stopping anytime soon?", "1000? How much time have you wasted already?", "Yeah, I'm not stopping you.", "... Are you using an autoclicker?"]
 
+    /**
+     * @param {{ (): void; (arg0: any): void; }} callback
+     */
+    function konami(callback) {
+        /**
+         * @type {any[]}
+         */
+        let kkeys = [];
+        // up,up,down,down,left,right,left,right,B,A
+        const konami = '38,38,40,40,37,39,37,39,66,65';
+        return (/** @type {{ keyCode: any; }} */ event) => {
+            kkeys.push(event.keyCode);
+            if (kkeys.toString().indexOf(konami) >= 0) {
+                callback(event);
+                kkeys = [];
+            }
+        };
+    }
+    const handler = konami(() => {
+        multiplier += 10
+    });
+    window.addEventListener('keydown', handler);
+
     function up() {
         counter += multiplier;
 

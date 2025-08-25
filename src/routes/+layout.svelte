@@ -35,7 +35,13 @@
       }
 
       .bg-great-blue-900 {
-        background-color: rgb(34, 41, 76)
+        background-color: rgb(34, 41, 76);
+      }
+
+      .fancyhr { /* probably unused */
+          margin: 2rem 0;
+          border: 0;
+          border-top: 2px solid #ccc;
       }
   </style>
 </svelte:head>

@@ -17,6 +17,22 @@
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
         <Typewriter text="Projects"/>
+        <hr><br>
+        <div class="flex justify-center p-8 center">
+            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
+                <!-- svelte-ignore a11y_invalid_attribute -->
+                <a href="javascript:window.location.href = window.location.pathname + '?featured';">View only featured projects</a>
+            </button>
+            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
+                <!-- svelte-ignore a11y_invalid_attribute -->
+                <a href="javascript:window.location.href = window.location.pathname;">View all projects</a>
+            </button>
+            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
+                <!-- svelte-ignore a11y_invalid_attribute -->
+                <a href="/">Return home</a>
+            </button>
+        </div>
+        <hr class="fancyhr">
         <Gridthing/>
     </div>
 

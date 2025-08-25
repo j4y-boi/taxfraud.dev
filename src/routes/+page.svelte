@@ -20,6 +20,8 @@
     }
 </script>
 
+<!-- lets replace links with this sometime later: on:click={() => window.location.href = '/'} -->
+
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
         <Typewriter text="Welcome to my site!"/>

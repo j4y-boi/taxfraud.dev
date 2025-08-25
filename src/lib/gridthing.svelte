@@ -1,12 +1,8 @@
 <script>
   import { projects } from '../featuredProjects.js';
-  const turn = {
-    title: "Return to home",
-    description: "",
-    image: "/img/site.png",
-    link: "/"
-  }
-  const total = projects.concat(turn)
+  import { page } from '$app/stores';
+  
+  const isFeaturedOnly = $page.url.searchParams.has('featured');
 </script>
 
 <style>
@@ -54,26 +50,38 @@
     text-decoration: none;
     color: inherit;
   }
+
+  .yeelow {
+    background: #fff6d6
+  }
 </style>
 
 <div class="grid">
-  {#each total as project}
-    {#if project.link.substring(0, 8) != 'https://'}
-      <a href={project.link} class="card">
-        <img src={project.image} alt={project.title}/>
-        <div class="content">
-          <div class="title text-black">{project.title}</div>
-          <div class="description">{project.description}</div>
-        </div>
-      </a>
-    {:else}
-      <a href={project.link} target="_blank" rel="noopener noreferrer" class="card">
-        <img src={project.image} alt={project.title} />
-        <div class="content">
-          <div class="title text-black">{project.title}</div>
-          <div class="description">{project.description}</div>
-        </div>
-      </a>
+  {#each projects as project}
+    {#if (isFeaturedOnly && "best" in project) || !isFeaturedOnly || "bypass" in project}
+      {#if project.link.substring(0, 8) != 'https://'}
+        <a href={project.link} class="card" class:yeelow={"best" in project}>
+          <img src={project.image} alt={project.title}/>
+          <div class="content">
+            <div class="title text-black">{project.title}</div>
+            <div class="description">{project.description}</div>
+            {#if "best" in project}
+              <div class="description" style="color: #ebc334; font-size:150%">⭐ Featured Project</div>
+            {/if}
+          </div>
+        </a>
+      {:else}
+        <a href={project.link} target="_blank" rel="noopener noreferrer" class="card" class:yeelow={"best" in project}>
+          <img src={project.image} alt={project.title} />
+          <div class="content">
+            <div class="title text-black">{project.title}</div>
+            <div class="description">{project.description}</div>
+            {#if "best" in project}
+              <div class="description" style="color: #ebc334; font-size:150%">⭐ Featured Project</div>
+            {/if}
+          </div>
+        </a>
+      {/if}
     {/if}
   {/each}
 </div>

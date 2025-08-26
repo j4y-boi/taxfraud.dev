@@ -3,6 +3,20 @@
   import { page } from '$app/stores';
   
   const isFeaturedOnly = $page.url.searchParams.has('featured');
+  const FISH = $page.url.searchParams.has('fish');
+  let total = projects
+
+  if (FISH) {
+    const fesh =  {
+    title: "F I S H",
+    description: "F I S H (not an actual project btw)",
+    image: "https://media.tenor.com/x9efZijA7aYAAAAM/fsh-spin.gif",
+    link: "/fish",
+    best: true,
+    }
+    total = projects
+    total.push(fesh);
+  }
 </script>
 
 <style>
@@ -57,7 +71,7 @@
 </style>
 
 <div class="grid">
-  {#each projects as project}
+  {#each total as project}
     {#if (isFeaturedOnly && "best" in project) || !isFeaturedOnly || "bypass" in project}
       {#if project.link.substring(0, 8) != 'https://'}
         <a href={project.link} class="card" class:yeelow={"best" in project}>

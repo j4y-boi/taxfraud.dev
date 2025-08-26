@@ -23,7 +23,7 @@
         <p class="text-center">And (as people do), we bypassed those limitations using some neat tricks.</p>
         <br><img class="notimg" title="Hold to make the image larger!" src="https://raw.githubusercontent.com/j4y-boi/bgChange/refs/heads/main/screenshot.png" alt="screenshot of bgchange"/><br>
         <hr><br>
-        <div style="display: flex; justify-content: center;">
+        <div style="display: flex; justify-content: center;" class="flex flex-wrap justify-center gap-2 sm:gap-4">
             <button class="relative overflow-hidden rounded bg-blue-500 px-5 py-2.5 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">
                 <a href="https://github.com/j4y-boi/bgChange">GitHub Repo</a>
             </button>

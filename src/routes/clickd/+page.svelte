@@ -53,12 +53,11 @@
             }
         };
     }
-    const handler = konami(() => {
-        multiplier += 10
-    });
 
     if (typeof window !== "undefined") { // i hate that this was the issue, why the fuck would the server be able to run this anyway
+        var level = new Audio('/audio/level.wav');
         const handler = konami(() => {
+            level.play();
             multiplier += 10;
         });
 
@@ -66,6 +65,8 @@
     }
 
     function up() {
+        var coin = new Audio('/audio/click.ogg');
+        coin.play();
         counter += multiplier;
 
         if (counter >= last + 250) {

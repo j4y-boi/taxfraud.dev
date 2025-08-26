@@ -16,7 +16,7 @@ export const projects = [
     title: "Pip the mouse",
     description: "A simple video game involving a mouse. Feed him, play with him, make sure he doesn't die!",
     image: "/img/pip.png",
-    link: "https://github.com/j4y-boi/pip-the-mouse/",
+    link: "projects/pip-the-mouse",
     best: true,
   },
   {

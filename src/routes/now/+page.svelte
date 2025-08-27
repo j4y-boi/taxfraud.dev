@@ -19,12 +19,6 @@
                 description: "This site! (It's also my first)",
                 image: "/img/site.png",
                 link: "https://github.com/j4y-boi/taxfraud.dev"
-            },
-            {
-                title: "Legally Distinct Animal Crossing",
-                description: "My first Godot game!",
-                image: "/img/aminal.png",
-                link: "/projects/animalroad"
             }
         ]}></SingleGrid><br>
         <br><hr><br> <!-- This is probably breaking 30+ design rules, but I could give less of a crap at the moment -->

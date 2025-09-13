@@ -6,6 +6,13 @@ export const projects = [
     link: "https://www.taxfraud.dev",
   },
   {
+    title: "Pip the Mouse 2",
+    description: "A remaster / port of the original Pip the Mouse to Web and Windows using Godot!",
+    image: "/img/pip2.png",
+    link: "projects/pip-the-mouse-2",
+    best: true,
+  },
+  {
     title: "Legally Distinct Animal Crossing",
     description: "A game where you need to open gates so animals don't get run over.",
     image: "/img/aminal.png",

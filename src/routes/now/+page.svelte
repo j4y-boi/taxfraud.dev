@@ -19,6 +19,12 @@
                 description: "This site! (It's also my first)",
                 image: "/img/site.png",
                 link: "https://github.com/j4y-boi/taxfraud.dev"
+            },
+            {
+                title: "Pip the Mouse 2",
+                description: "Sequel of my mouse game",
+                image: "/img/pip2.png",
+                link: "/projects/pip-the-mouse-2"
             }
         ]}></SingleGrid><br>
         <br><hr><br> <!-- This is probably breaking 30+ design rules, but I could give less of a crap at the moment -->

@@ -39,11 +39,12 @@
         </div><br>
         <p class="text-center" style="font-size: 2em;"><b>Screenshots:</b></p>
         <div style="display: flex; justify-content: center;">
-            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2OC5wbmc=/794x1000/Cly7J0.png" alt="Main menu">
-            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2Ny5wbmc=/794x1000/maqf81.png" alt="Pip">
-            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2NS5wbmc=/794x1000/f7b9S2.png" alt="Pip walking to peanut">
-            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2Ni5wbmc=/794x1000/Qolc59.png" alt="Hunger menu">
+            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2OC5wbmc=/794x1000/Cly7J0.png" alt="Main menu of game">
+            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2Ny5wbmc=/794x1000/maqf81.png" alt="Pip standing in room">
+            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2NS5wbmc=/794x1000/f7b9S2.png" alt="Pip walking to a peanut">
+            <img class="screenshot" src="https://img.itch.zone/aW1hZ2UvMzg2NDU5OC8yMzA4MzQ2Ni5wbmc=/794x1000/Qolc59.png" alt="Hunger menu shown">
         </div><br>
+        <p class="text-center">For extra info and/or to play the game, you can go to the itch.io page here:</p>
         <div style="display: flex; justify-content: center;">
             <iframe title="itch embed" frameborder="0" src="https://itch.io/embed/3864598?border_width=5&amp;bg_color=965a0f&amp;fg_color=f8f9fa&amp;link_color=457cff&amp;border_color=875b26" width="560" height="175"><a href="https://j4y-boi.itch.io/pip-the-mouse-2">Pip the Mouse 2 by J4y_boi</a></iframe>
         </div>

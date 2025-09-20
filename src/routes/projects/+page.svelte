@@ -18,18 +18,15 @@
     <div class="text-white center">
         <Typewriter text="Projects"/>
         <div class="flex justify-center p-8">
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <!-- svelte-ignore a11y_invalid_attribute -->
-                <a href="javascript:window.location.href = window.location.pathname + '?featured';">View only featured projects</a>
-            </button>
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <!-- svelte-ignore a11y_invalid_attribute -->
-                <a href="javascript:window.location.href = window.location.pathname;">View all projects</a>
-            </button>
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <!-- svelte-ignore a11y_invalid_attribute -->
-                <a href="/">Return home</a>
-            </button>
+            <a href="javascript:window.location.href = window.location.pathname + '?featured';">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">View only featured projects</button>
+            </a>
+            <a href="javascript:window.location.href = window.location.pathname;">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">View all projects</button>
+            </a>
+            <a href="/">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">Return home</button>
+            </a>
         </div>
         <br>
         <Gridthing/>

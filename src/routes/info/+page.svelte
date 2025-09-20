@@ -16,23 +16,23 @@
         <p class="text-center"><b>Tools I use for my projects:</b></p>
         <p class="text-center">- VSCode, IntelliJ IDEA, Godot (Coding) | Paint.NET, Canva, Figma (Art) -</p><br><hr><br> <!-- This is probably breaking 30+ design rules, but I could give less of a crap at the moment -->
         <div style="display: flex; justify-content: center;" class="flex flex-wrap justify-center gap-2 sm:gap-4">
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <a href="/">Return home</a>
-            </button>
-            <button class="relative overflow-hidden rounded bg-blue-500 px-5 py-2.5 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">
-                <a href="https://www.linktr.ee/j4y_boi">My Linktree</a>
-            </button>
-            <button class="relative overflow-hidden rounded bg-blue-500 px-5 py-2.5 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">
-                <a href="https://j4y-boi.itch.io/">My itch.io</a>
-            </button>
-            <button class="relative overflow-hidden rounded bg-blue-500 px-5 py-2.5 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">
-                <a href="https://github.com/j4y-boi">My Github</a>
-            </button>
-            <button class="relative overflow-hidden rounded bg-gray-800 px-5 py-2.5 text-gray-500 font-bold p-4 transition-all duration-300 hover:bg-gray-900 hover:ring-2 hover:ring-neutral-900 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">
-                <a href=" ">My email (Temporarily Unavailable)</a>
-            </button>
+            <a href="/">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">Return home</button>
+            </a>
+            <a href="https://www.linktr.ee/j4y_boi">
+                <button class="relative overflow-hidden rounded bg-blue-500 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My Linktree</button>
+            </a>
+            <a href="https://j4y-boi.itch.io/">
+                <button class="relative overflow-hidden rounded bg-blue-500 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My itch.io</button>
+            </a>
+            <a href="https://github.com/j4y-boi">
+                <button class="relative overflow-hidden rounded bg-blue-500 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My Github</button>
+            </a>
+            <a href="">
+                <button class="relative overflow-hidden rounded bg-gray-800 text-gray-500 font-bold p-4 transition-all duration-300 hover:bg-gray-900 hover:ring-2 hover:ring-neutral-900 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My email (Temporarily Unavailable)</button>
+            </a>
 
         </div>
     </div>
     <Bottomfooter/>
-</div>    
+</div>

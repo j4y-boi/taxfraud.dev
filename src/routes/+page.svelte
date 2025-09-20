@@ -32,15 +32,15 @@
         <p class="text-center">{counterText}</p><br>
 
         <div class="flex justify-center p-8 center">
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <a href="/info">Info / Contact</a>
-            </button>
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <a href="/now">Now</a>
-            </button>
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <a href="/projects">My projects</a>
-            </button>
+            <a href="/info">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">Info / Contact</button>
+            </a>
+            <a href="/now">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">Now</button>
+            </a>
+            <a href="/projects">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">My projects</button>
+            </a>
         </div>
         <div class="flex justify-center p-8">
             <button class="transition active:scale-95" onclick={increment}>�</button>

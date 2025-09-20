@@ -29,9 +29,9 @@
         ]}></SingleGrid><br>
         <br><hr><br> <!-- This is probably breaking 30+ design rules, but I could give less of a crap at the moment -->
         <div style="display: flex; justify-content: center;" class="flex flex-wrap justify-center gap-2 sm:gap-4">
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <a href="/">Return home</a>
-            </button>
+            <a href="/">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">Return home</button>
+            </a>
         </div>
     </div>
     <Bottomfooter/>

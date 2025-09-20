@@ -21,9 +21,9 @@
             <TyperwriterText speedmin={30} speedmax={30} text="I'm not sure what happened..."/><br>
         {/if}
         <div class="flex justify-center p-8 center">
-            <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">
-                <a href="/">Return home </a>
-            </button>
+            <a href="/">
+                <button class="bg-white  text-black font-bold p-4 rounded transition active:scale-95 hover:scale-105" style="margin-right: 10px">Return home</button>
+            </a>
         </div>
     </div>
 

@@ -28,8 +28,8 @@
             <a href="https://github.com/j4y-boi">
                 <button class="relative overflow-hidden rounded bg-blue-500 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My Github</button>
             </a>
-            <a href="#">
-                <button class="relative overflow-hidden rounded bg-gray-800 text-gray-500 font-bold p-4 transition-all duration-300 hover:bg-gray-900 hover:ring-2 hover:ring-neutral-900 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My email (Temporarily Unavailable)</button>
+            <a href="mailto:j4y@taxfraud.dev">
+                <button class="relative overflow-hidden rounded bg-blue-500 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My Email</button>
             </a>
 
         </div>

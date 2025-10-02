@@ -29,13 +29,12 @@
         <p class="text-center">This is also a game where you need to take care of a mouse named... Well, Pip. Feed him or he'll die. It's quite similar to the first one actually. The only difference is that his one runs in HD and doesn't require Python or an ESP32. There's a lot planned for this game, but due to school I sadly have to delay these updates.</p><br>
         <div style="display:flex; justify-content: center;">
             <p>A small list of updates planned: <br>
-                • judgement.<br>
+                • a warioware-esque minigame gamemode called "pip's game spree"<br>
                 • leaderboard for global players (maybe)<br>
                 • customization / accessories for Pip<br>
-                • actual settings menu<br>
-                • play feature<br>
-                • house customization<br>
-                • linux support</p>
+                • an ingame currency<br>
+                • a better touchscreen support<br>
+                • house customization</p>
         </div><br>
         <p class="text-center" style="font-size: 2em;"><b>Screenshots:</b></p>
         <div style="display: flex; justify-content: center;">

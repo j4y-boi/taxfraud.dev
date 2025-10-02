@@ -8,7 +8,7 @@
         <Typewriter text="About me"/> <hr><br>
         <p class="text-center">Hi! I'm j4y_boi, a guy from Belgium who was born in the Netherlands and picked up coding at 10 years old.</p>
         <p class="text-center">I started off coding in 2020 on <a href="https://scratch.mit.edu/users/j4y_boi/"><u>Scratch</u></a> what (for what it's worth) was a great way to start programming!</p>
-        <p class="text-center">Afterwards (17 November 2021 according to my files) I began making basic sites in HTML with tutorials on the internet and a random app.
+        <p class="text-center">Afterwards (17 November 2021 according to my files) I began making basic sites in HTML with tutorials on the internet and a random app. One of which, you can find hosted <a href="http://da-site-lol.taxfraud.dev"><u>here</u></a>.
         I also started programming Arduino's at school using Blockly (which is a visual programming language that can be converted to C++.</p>
         <p class="text-center">Now, in 2025, I'm running my own site and making projects for fun! (I'll probably make less, I need to focus on school lmfao)</p>
         <br><p class="text-center"><b>Programming languages I know/use:</b></p>
@@ -28,7 +28,7 @@
             <a href="https://github.com/j4y-boi">
                 <button class="relative overflow-hidden rounded bg-blue-500 text-white font-bold p-4 transition-all duration-300 hover:bg-blue-600 hover:ring-2 hover:ring-neutral-800 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My Github</button>
             </a>
-            <a href="">
+            <a href="#">
                 <button class="relative overflow-hidden rounded bg-gray-800 text-gray-500 font-bold p-4 transition-all duration-300 hover:bg-gray-900 hover:ring-2 hover:ring-neutral-900 hover:ring-offset-2 active:scale-95" style="margin-right: 10px">My email (Temporarily Unavailable)</button>
             </a>
 

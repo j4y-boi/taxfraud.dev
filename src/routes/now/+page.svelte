@@ -15,10 +15,10 @@
         <!-- SCREW YOU, THIS LOOKS GOOD, I DONT CARE THAT THERE ISNT A BACKEND TO CONNECT TO -->
         <SingleGrid projects={[
             {
-                title: "taxfraud.dev",
-                description: "This site! (It's also my first)",
-                image: "/img/site.png",
-                link: "https://github.com/j4y-boi/taxfraud.dev"
+                title: "Ijzerboer",
+                description: "Collect scrap metal, collect money, collect more scrap metal, and so on",
+                image: "/img/ijzerboer.png",
+                link: "/projects/ijzerboer"
             },
             {
                 title: "Pip the Mouse 2",

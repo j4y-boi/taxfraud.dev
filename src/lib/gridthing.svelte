@@ -68,19 +68,26 @@
   .yeelow {
     background: #fff6d6
   }
+
+  .wip {
+    background: #d6deff
+  }
 </style>
 
 <div class="grid">
   {#each total as project}
     {#if (isFeaturedOnly && "best" in project) || !isFeaturedOnly || "bypass" in project}
       {#if project.link.substring(0, 8) != 'https://'}
-        <a href={project.link} class="card" class:yeelow={"best" in project}>
+        <a href={project.link} class="card" class:yeelow={"best" in project} class:wip={"wip" in project}>
           <img src={project.image} alt={project.title}/>
           <div class="content">
             <div class="title text-black">{project.title}</div>
             <div class="description">{project.description}</div>
             {#if "best" in project}
               <div class="description" style="color: #ebc334; font-size:150%">⭐ Featured Project</div>
+            {/if}
+            {#if "wip" in project}
+              <div class="description" style="color: #345ceb; font-size:150%">🚧 In development</div>
             {/if}
           </div>
         </a>

@@ -3,7 +3,15 @@ export const projects = [
     title: "taxfraud.dev",
     description: "My personal site built on svelte.",
     image: "/img/site.png",
-    link: "https://www.taxfraud.dev",
+    link: "https://github.com/j4y-boi/taxfraud.dev",
+  },
+  {
+    title: "Ijzerboer",
+    description: "If you're from Belgium, you'll know what this word means.",
+    image: "/img/ijzerboer.png",
+    link: "projects/ijzerboer",
+    wip: true,
+    bypass: true,
   },
   {
     title: "Pip the Mouse 2",

@@ -13,7 +13,7 @@
         }
     }
 
-    const splash = ["Welcome to Pizza hut what can I","number 15 burger king foo","Now gluten free!","Tax fraud is quite cool"]
+    const splash = ["Welcome to Pizza hut what can I","number 15 burger king foo","Now gluten free!","Tax fraud is quite cool","best viewed at 75% zoom"]
     function randomoption(list: string | any[]) {
         let i = Math.floor(Math.random() * list.length);
         return list[i];

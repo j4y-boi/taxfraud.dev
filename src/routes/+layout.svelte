@@ -19,7 +19,7 @@
 
       .center {
         margin: auto;
-        width: 50%;
+        width: 65%;
         border: 5px;
         border-color: #021147;
         padding: 10px;

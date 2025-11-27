@@ -3,28 +3,42 @@
 </script>
 
 <style>
-    .screenshot {
-        transition: all 0.3s ease;
-        max-width: 30%;
+    .logo {
+        width: 200%;
+        height: auto;
+        margin: auto;
     }
 
-    .logo {
-        display: block;
-        margin: auto;
-        max-width: 50%;
-        height: auto;
-
+    .screenshot {
+        transition: all 0.3s ease;
+        max-width: 100%;        /* idk waht im doing */
     }
 
     .screenshot:active {
-        max-width: 75%;
+        max-width: 150%;
     }
+
+    @media (min-width: 768px) {
+        .logo {
+            width: 60%;
+        }
+
+        .screenshot {
+            transition: all 0.3s ease;
+            max-width: 50%;
+        }
+
+        .screenshot:active {
+            max-width: 75%;
+        }
+    }
+
 </style>
 
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
-        <h1 class="text-center"><img class="logo" alt="logo" src="/img/ijzerboer_logo.png"></h1><hr><br>
-        <p class="text-center">Ijzerboer is a semi-open world simulator game where you play as the Ijzerboer (literally translates to metalfarmer) and collect scrap metal for a living! Explore neighbourhoods, visit shops like "Kwik", "Koolruit" and more!</p><br>
+        <img class="logo" alt="logo" src="/img/ijzerboer_logo.png"><hr><br>
+        <p class="text-center">Ijzerboer is a semi-open world simulator game where you play as the Ijzerboer (literally translates to metalfarmer) and collect scrap metal for a living! Explore neighbourhoods, visit shops like the "Kwik", "Koolruit" and more!</p><br>
         <p class="text-center">I'm developing this game with a <a href="https://github.com/kobegeens" title="Kobe Geens"><u>a friend of mine</u></a>. This game is still under active development and doesn't have implemented gameplay yet.</p><br>
         <p class="text-center" style="font-size: 2em;"><b>Screenshots:</b></p>
         <div class="text-center">none yet, stay tuned though</div><br>

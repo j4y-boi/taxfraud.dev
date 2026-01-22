@@ -24,7 +24,7 @@
 
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
-        <img class="logo" alt="logo" src="/img/pip2-logo.png"><hr><br>
+        <img class="logo" alt="logo" src="/img/pip/pip2-logo.png"><hr><br>
         <p class="text-center"></p><br>
         <p class="text-center">This is also a game where you need to take care of a mouse named... Well, Pip. Feed him or he'll die. It's quite similar to the first one actually. The only difference is that his one runs in HD and doesn't require Python or an ESP32. There's a lot planned for this game, but due to school I sadly have to delay these updates.</p><br>
         <div style="display:flex; justify-content: center;">

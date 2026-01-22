@@ -11,25 +11,26 @@
 
     .screenshot {
         transition: all 0.3s ease;
-        max-width: 100%;        /* idk waht im doing */
+        height: 200px;          /* good enough */
+        width: auto;
+        object-fit: contain;
+        max-width: 100%;
+        z-index: 1;
     }
 
     .screenshot:active {
-        max-width: 150%;
+        transform: scale(1.5);
+        z-index: 9999;
     }
 
     @media (min-width: 768px) {
         .logo {
-            width: 60%;
+            width: 40em;
         }
 
         .screenshot {
-            transition: all 0.3s ease;
+            height: 250px;
             max-width: 50%;
-        }
-
-        .screenshot:active {
-            max-width: 75%;
         }
     }
 
@@ -37,13 +38,14 @@
 
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
-        <img class="logo" alt="logo" src="/img/ijzerboer_logo.png"><hr><br>
-        <p class="text-center">Ijzerboer is a semi-open world simulator game where you play as the Ijzerboer (literally translates to metalfarmer) and collect scrap metal for a living! Explore neighbourhoods, visit shops like the "Kwik", "Koolruit" and more!</p><br>
-        <p class="text-center">I'm developing this game with a <a href="https://github.com/kobegeens" title="Kobe Geens"><u>a friend of mine</u></a>. This game is still under active development and doesn't have implemented gameplay yet.</p><br>
+        <img class="logo" alt="logo" src="/img/ijzerboer/ijzerboer_logo.png"><hr><br>
+        <p class="text-center">Ijzerboer is a semi-open world simulator game where you play as the Ijzerboer (literally translates to metalfarmer) and collect scrap metal for a living! Explore neighbourhoods, visit shops like the "Hobo", "Koolruit" and more!</p><br>
+        <p class="text-center">I'm developing this game with a <a href="https://github.com/kobegeens" title="Kobe Geens"><u>a friend of mine</u></a>. This game is still under active development.</p><br>
         <p class="text-center" style="font-size: 2em;"><b>Screenshots:</b></p>
-        <div class="text-center">none yet, stay tuned though</div><br>
-        <div style="display: flex; justify-content: center;">
-            <img title="click on me!" src="/img/ijzerboer.png" class="screenshot" alt="wip cover">
+        <div style="display: flex; justify-content: center; gap: 0.5em;">
+            <img title="click on me!" src="/img/ijzerboer/cover.png" class="screenshot" alt="cover">
+            <img title="click on me!" src="/img/ijzerboer/screenshot1.png" class="screenshot" alt="ingame screenshot">
+            <img title="click on me!" src="/img/ijzerboer/screenshot2.png" class="screenshot" alt="car screenshot">
         </div><br><hr><br>
         <div style="display: flex; justify-content: center;" class="flex flex-wrap justify-center gap-2 sm:gap-4">
             <a href="https://github.com/brooddoos/Ijzerboer">

@@ -8,7 +8,7 @@ export const projects = [
   {
     title: "Ijzerboer",
     description: "If you're from Belgium, you'll know what this word means.",
-    image: "/img/ijzerboer.png",
+    image: "/img/ijzerboer/screenshot1.png",
     link: "projects/ijzerboer",
     wip: true,
     bypass: true,
@@ -16,21 +16,21 @@ export const projects = [
   {
     title: "Pip the Mouse 2",
     description: "A remaster / port of the original Pip the Mouse to Web and Windows using Godot!",
-    image: "/img/pip2.png",
+    image: "/img/pip/pip2.png",
     link: "projects/pip-the-mouse-2",
     best: true,
   },
   {
     title: "Legally Distinct Animal Crossing",
     description: "A game where you need to open gates so animals don't get run over.",
-    image: "/img/aminal.png",
+    image: "/img/ldac.png",
     link: "projects/animalroad",
     best: true,
   },
   {
     title: "Pip the mouse",
     description: "A simple video game involving a mouse. Feed him, play with him, make sure he doesn't die!",
-    image: "/img/pip.png",
+    image: "/img/pip/pip.png",
     link: "projects/pip-the-mouse",
     best: true,
   },

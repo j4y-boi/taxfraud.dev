@@ -23,7 +23,7 @@
 
 <div class="min-h-screen flex flex-col">
     <div class="text-white center">
-        <h1 class="text-center"><img class="logo" alt="logo" src="/img/pip-logo.png"></h1><hr><br>
+        <h1 class="text-center"><img class="logo" alt="logo" src="/img/pip/pip-logo.png"></h1><hr><br>
         <p class="text-center">Pip the mouse was one of the first games I ever wrote. It was made for Hackapet, which was a Hack Club event where you needed to write a game for a custom ESP32-based tamagotchi-like gaming system!</p><br>
         <p class="text-center">This is a game where you need to take care of a mouse named... Well, Pip. If you didn't feed him enough or fed him too much, gave him too much or little exercise he would die.</p><br>
         <p class="text-center" style="font-size: 2em;"><b>Screenshots:</b></p>

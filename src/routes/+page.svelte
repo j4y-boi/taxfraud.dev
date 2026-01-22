@@ -27,6 +27,7 @@
         <p class="text-center"></p>
         <p class="text-center">This is the internet equivalent of the small storage unit I'm renting (Figuratively)</p>
         <p class="text-center" title="Fun fact: I started out coding on Scratch!">I've been coding since 2020, so that's cool I guess...</p>
+        <p class="text-center">Also a quick note, my website is kinda broken on mobile.</p>
         <p class="text-center">{counterText}</p><br>
 
         <div class="flex justify-center p-8 center">

@@ -8,22 +8,22 @@
     <div class="text-white center">
         <Typewriter text="What am I doing now?"/> <hr><br>
         <p class="text-center"><b>I'm currently learning:</b></p>
-        <p class="text-center">- Java | CSS (more extensive) | GDScript | C# -</p><br>
+        <p class="text-center">- Java | CSS (more extensive) -</p><br>
         <p class="text-center"><b>Things I hope to start learning someday:</b></p>
-        <p class="text-center">- React | 6502 ASM -</p><br>
+        <p class="text-center">- C# | React | 6502 ASM -</p><br>
         <p class="text-center"><b>What I currently am working on:</b></p><br>
         <!-- SCREW YOU, THIS LOOKS GOOD, I DONT CARE THAT THERE ISNT A BACKEND TO CONNECT TO -->
         <SingleGrid projects={[
             {
                 title: "Ijzerboer",
                 description: "Collect scrap metal, collect money, collect more scrap metal, and so on",
-                image: "/img/ijzerboer.png",
+                image: "/img/ijzerboer/ijzerboer.png",
                 link: "/projects/ijzerboer"
             },
             {
                 title: "Pip the Mouse 2",
                 description: "Sequel of my mouse game",
-                image: "/img/pip2.png",
+                image: "/img/pip/pip2.png",
                 link: "/projects/pip-the-mouse-2"
             }
         ]}></SingleGrid><br>

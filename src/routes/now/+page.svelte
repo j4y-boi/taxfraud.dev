@@ -17,7 +17,7 @@
             {
                 title: "Ijzerboer",
                 description: "Collect scrap metal, collect money, collect more scrap metal, and so on",
-                image: "/img/ijzerboer/ijzerboer.png",
+                image: "/img/ijzerboer/screenshot1.png",
                 link: "/projects/ijzerboer"
             },
             {

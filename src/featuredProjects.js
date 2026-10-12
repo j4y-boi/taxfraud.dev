@@ -6,12 +6,18 @@ export const projects = [
     link: "https://github.com/j4y-boi/taxfraud.dev",
   },
   {
+    title: "Pip the Mouse: Desktop Edition",
+    description: "A pet mouse lives on your desktop now.",
+    image: "/img/pip-desktop/banner.png",
+    link: "projects/pip-the-mouse-desktop-edition",
+    best: true,
+  },
+  {
     title: "Ijzerboer",
     description: "If you're from Belgium, you'll know what this word means.",
     image: "/img/ijzerboer/screenshot1.png",
     link: "projects/ijzerboer",
-    wip: true,
-    bypass: true,
+    best: true,
   },
   {
     title: "Pip the Mouse 2",
@@ -25,14 +31,12 @@ export const projects = [
     description: "A game where you need to open gates so animals don't get run over.",
     image: "/img/ldac.png",
     link: "projects/animalroad",
-    best: true,
   },
   {
     title: "Pip the mouse",
     description: "A simple video game involving a mouse. Feed him, play with him, make sure he doesn't die!",
     image: "/img/pip/pip.png",
     link: "projects/pip-the-mouse",
-    best: true,
   },
   {
     title: "pyTyper",

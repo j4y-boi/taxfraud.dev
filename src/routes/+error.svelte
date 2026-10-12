@@ -15,7 +15,7 @@
             <TyperwriterText speedmin={30} speedmax={30} text="Something went wrong on our end..."/><br>
         {:else if page.status === 403}
             <Typewriter speedmin={350} speedmax={350} text="403"/>
-            <TyperwriterText speedmin={30} speedmax={30} text="Whoops, you can't go there bud."/><br>
+            <TyperwriterText speedmin={30} speedmax={30} text="Whoops, you can't go there."/><br>
         {:else}
             <Typewriter speedmin={350} speedmax={350} text="Uhh..."/>
             <TyperwriterText speedmin={30} speedmax={30} text="I'm not sure what happened..."/><br>
